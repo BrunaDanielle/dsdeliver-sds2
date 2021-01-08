@@ -94,6 +94,14 @@ public class Order implements Serializable{
 		return products;
 	}
 
+	public OrderStatus getStatus() {
+		return status;
+	}
+
+	public void setStatus(OrderStatus status) {
+		this.status = status;
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
